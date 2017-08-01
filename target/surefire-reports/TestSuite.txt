@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 2, Errors: 0, Skipped: 2, Time elapsed: 69.425 s <<< FAILURE! - in TestSuite
+Test(com.upload.file.UploadFile_Safari)  Time elapsed: 7.803 s  <<< FAILURE!
+org.openqa.selenium.ElementNotVisibleException: 
+An element command could not be completed because the element is not visible on the page. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 11 milliseconds
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'Tatianas-MacBook-Air.local', ip: '2601:58c:c102:2d10:0:0:0:5', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.5', java.version: '1.8.0_74'
+Driver info: org.openqa.selenium.safari.SafariDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, databaseEnabled=true, handlesAlerts=true, version=12603.2.4, cleanSession=true, platform=MAC, nativeEvents=true, locationContextEnabled=false, webStorageEnabled=true, browserName=safari, javascriptEnabled=true, platformName=macOS, cssSelectorsEnabled=true}]
+Session ID: 37D88C40-CA75-4B35-B8B8-A7738D0AC799
+	at com.upload.file.UploadFile_Safari.Test(UploadFile_Safari.java:75)
+
+beforeClass(com.upload.file.UploadFile)  Time elapsed: 13.176 s  <<< FAILURE!
+java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases
+	at com.upload.file.UploadFile.beforeClass(UploadFile.java:45)
+

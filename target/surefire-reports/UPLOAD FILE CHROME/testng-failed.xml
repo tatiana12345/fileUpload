@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [UPLOAD FILE CHROME]">
+  <test name="CHROME(failed)">
+    <classes>
+      <class name="com.upload.file.UploadFile_Chrome">
+        <methods>
+          <include name="Test"/>
+          <include name="beforeClass"/>
+          <include name="tearDown"/>
+          <include name="AfterClass"/>
+        </methods>
+      </class> <!-- com.upload.file.UploadFile_Chrome -->
+    </classes>
+  </test> <!-- CHROME(failed) -->
+</suite> <!-- Failed suite [UPLOAD FILE CHROME] -->

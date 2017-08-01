@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Upload file all browsers]" parallel="classes">
+  <test name="All browsers upload(failed)" parallel="classes">
+    <classes>
+      <class name="com.upload.file.UploadFile">
+        <methods>
+          <include name="Test"/>
+          <include name="beforeClass"/>
+          <include name="tearDown"/>
+          <include name="AfterClass"/>
+        </methods>
+      </class> <!-- com.upload.file.UploadFile -->
+      <class name="com.upload.file.UploadFile_Safari">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="Test"/>
+          <include name="tearDown"/>
+          <include name="AfterClass"/>
+        </methods>
+      </class> <!-- com.upload.file.UploadFile_Safari -->
+    </classes>
+  </test> <!-- All browsers upload(failed) -->
+</suite> <!-- Failed suite [Upload file all browsers] -->

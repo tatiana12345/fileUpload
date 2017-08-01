@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="File Upload Firefox">
+	<test name="Firedox">
+		<classes>
+			<class name="com.upload.file.UploadFile"></class>
+		</classes>
+	</test>
+</suite>

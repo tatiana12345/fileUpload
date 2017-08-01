@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Upload file all browsers" parallel ="classes" thread-count ="2">
+	<test name="All browsers upload">
+		<classes>
+			<class name="com.upload.file.UploadFile_Safari"></class>
+			<class name="com.upload.file.UploadFile_Chrome"></class>
+			<class name="com.upload.file.UploadFile"></class>
+		</classes>
+	</test>
+</suite>
