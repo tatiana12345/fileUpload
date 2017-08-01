@@ -37,7 +37,7 @@ public class UploadFile {
 
 	@BeforeClass
 	public void beforeClass() {
-		System.setProperty("webdriver.chrome.driver", "/Users/tatianakesler/Desktop/Selenium/installation/geckodriver");
+		System.setProperty("webdriver.gecko.driver", "/Users/tatianakesler/Desktop/Selenium/installation/geckodriver");
 
 		report = UploadReportPathName.getInstance();
 		test = report.startTest("Upload file test");
@@ -54,7 +54,7 @@ public class UploadFile {
 	@Test
 	public void Test() throws InterruptedException, AWTException {
 		// Click OK button - pop-up
-		boolean PopupIsPresent = wd.findElements(By.xpath("//div[@id='McfNlf']//span[text()='OK']")).size() >0;
+		boolean PopupIsPresent = wd.findElements(By.xpath("//div[@id='McfNlf']//span[text()='OK']")).size() !=0;
 		if (PopupIsPresent==true){
 		WebElement closePopup = wd.findElement(By.xpath("//div[@id='McfNlf']//span[text()='OK']"));
 		closePopup.click();

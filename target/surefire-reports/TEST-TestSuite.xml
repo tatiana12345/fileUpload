@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="69.425" tests="5" errors="0" skipped="2" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="52.139" tests="1" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_74.jdk/Contents/Home/jre/lib"/>
@@ -43,7 +43,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_74.jdk/Contents/Home/jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -PUploadAll"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -PUploadSafari"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -61,38 +61,22 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="Test" classname="com.upload.file.UploadFile_Safari" time="7.803">
-    <failure message="An element command could not be completed because the element is not visible on the page. (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 11 milliseconds&#10;Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;&#10;System info: host: &apos;Tatianas-MacBook-Air.local&apos;, ip: &apos;2601:58c:c102:2d10:0:0:0:5&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.5&apos;, java.version: &apos;1.8.0_74&apos;&#10;Driver info: org.openqa.selenium.safari.SafariDriver&#10;Capabilities [{applicationCacheEnabled=true, rotatable=false, databaseEnabled=true, handlesAlerts=true, version=12603.2.4, cleanSession=true, platform=MAC, nativeEvents=true, locationContextEnabled=false, webStorageEnabled=true, browserName=safari, javascriptEnabled=true, platformName=macOS, cssSelectorsEnabled=true}]&#10;Session ID: 37D88C40-CA75-4B35-B8B8-A7738D0AC799" type="org.openqa.selenium.ElementNotVisibleException">org.openqa.selenium.ElementNotVisibleException: 
+  <testcase name="Test" classname="com.upload.file.UploadFile_Safari" time="32.253">
+    <failure message="An element command could not be completed because the element is not visible on the page. (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 10 milliseconds&#10;Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;&#10;System info: host: &apos;Tatianas-MacBook-Air.local&apos;, ip: &apos;2601:58c:c102:2d10:0:0:0:5&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.5&apos;, java.version: &apos;1.8.0_74&apos;&#10;Driver info: org.openqa.selenium.safari.SafariDriver&#10;Capabilities [{applicationCacheEnabled=true, rotatable=false, databaseEnabled=true, handlesAlerts=true, version=12603.2.4, cleanSession=true, platform=MAC, nativeEvents=true, locationContextEnabled=false, webStorageEnabled=true, browserName=safari, javascriptEnabled=true, platformName=macOS, cssSelectorsEnabled=true}]&#10;Session ID: 1C2279D5-C5BC-4521-88F9-1BB74678FD3B" type="org.openqa.selenium.ElementNotVisibleException">org.openqa.selenium.ElementNotVisibleException: 
 An element command could not be completed because the element is not visible on the page. (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 11 milliseconds
+Command duration or timeout: 10 milliseconds
 Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
 System info: host: 'Tatianas-MacBook-Air.local', ip: '2601:58c:c102:2d10:0:0:0:5', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.5', java.version: '1.8.0_74'
 Driver info: org.openqa.selenium.safari.SafariDriver
 Capabilities [{applicationCacheEnabled=true, rotatable=false, databaseEnabled=true, handlesAlerts=true, version=12603.2.4, cleanSession=true, platform=MAC, nativeEvents=true, locationContextEnabled=false, webStorageEnabled=true, browserName=safari, javascriptEnabled=true, platformName=macOS, cssSelectorsEnabled=true}]
-Session ID: 37D88C40-CA75-4B35-B8B8-A7738D0AC799
+Session ID: 1C2279D5-C5BC-4521-88F9-1BB74678FD3B
 	at com.upload.file.UploadFile_Safari.Test(UploadFile_Safari.java:75)
 </failure>
     <system-err><![CDATA[log4j:WARN No appenders could be found for logger (org.apache.http.client.protocol.RequestAddCookies).
 log4j:WARN Please initialize the log4j system properly.
 log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
-Aug 01, 2017 4:31:41 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: OSS
-Starting ChromeDriver 2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f) on port 6241
-Only local connections are allowed.
-Aug 01, 2017 4:31:45 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Aug 01, 2017 4:38:08 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 ]]></system-err>
   </testcase>
-  <testcase name="beforeClass" classname="com.upload.file.UploadFile" time="13.176">
-    <failure message="The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases" type="java.lang.IllegalStateException">java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases
-	at com.upload.file.UploadFile.beforeClass(UploadFile.java:45)
-</failure>
-  </testcase>
-  <testcase name="Test" classname="com.upload.file.UploadFile" time="0">
-    <skipped message="The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases"/>
-  </testcase>
-  <testcase name="AfterClass" classname="com.upload.file.UploadFile" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="Test" classname="com.upload.file.UploadFile_Chrome" time="34.705"/>
 </testsuite>

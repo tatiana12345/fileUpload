@@ -54,8 +54,8 @@ public class UploadFile_Safari {
 	@Test
 	public void Test() throws InterruptedException, AWTException {
 		// Click OK button - pop-up
-		boolean PopupIsPresent = wd.findElements(By.xpath("//div[@id='McfNlf']//span[text()='OK']")).size() > 0;
-		if (PopupIsPresent == true){
+		boolean PopupIsPresent = wd.findElements(By.xpath("//div[@id='McfNlf']//span[text()='OK']")).size() != 0;
+		if (PopupIsPresent == true) {
 			WebElement closePopup = wd.findElement(By.xpath("//div[@id='McfNlf']//span[text()='OK']"));
 			closePopup.click();
 			test.log(LogStatus.INFO, "Popup closed");

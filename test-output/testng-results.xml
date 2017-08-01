@@ -2,35 +2,35 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="45503" started-at="2017-08-01T20:23:08Z" finished-at="2017-08-01T20:23:54Z">
+  <suite name="Default suite" duration-ms="46831" started-at="2017-08-01T20:48:53Z" finished-at="2017-08-01T20:49:40Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="45503" started-at="2017-08-01T20:23:08Z" finished-at="2017-08-01T20:23:54Z">
-      <class name="com.upload.file.UploadFile_Chrome">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.upload.file.UploadFile_Chrome@1794d431]" name="beforeClass" is-config="true" duration-ms="9968" started-at="2017-08-01T16:23:08Z" finished-at="2017-08-01T16:23:18Z">
+    <test name="Default test" duration-ms="46831" started-at="2017-08-01T20:48:53Z" finished-at="2017-08-01T20:49:40Z">
+      <class name="com.upload.file.UploadFile">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.upload.file.UploadFile@1794d431]" name="beforeClass" is-config="true" duration-ms="12376" started-at="2017-08-01T16:48:53Z" finished-at="2017-08-01T16:49:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="Test()[pri:0, instance:com.upload.file.UploadFile_Chrome@1794d431]" name="Test" duration-ms="35086" started-at="2017-08-01T16:23:18Z" finished-at="2017-08-01T16:23:53Z">
+        <test-method status="PASS" signature="Test()[pri:0, instance:com.upload.file.UploadFile@1794d431]" name="Test" duration-ms="33713" started-at="2017-08-01T16:49:05Z" finished-at="2017-08-01T16:49:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.upload.file.UploadFile_Chrome@1794d431]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-08-01T16:23:53Z" finished-at="2017-08-01T16:23:53Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.upload.file.UploadFile@1794d431]" name="tearDown" is-config="true" duration-ms="1" started-at="2017-08-01T16:49:39Z" finished-at="2017-08-01T16:49:39Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Test status=SUCCESS method=UploadFile_Chrome.Test()[pri:0, instance:com.upload.file.UploadFile_Chrome@1794d431] output={null}]]]>
+                <![CDATA[[TestResult name=Test status=SUCCESS method=UploadFile.Test()[pri:0, instance:com.upload.file.UploadFile@1794d431] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="AfterClass()[pri:0, instance:com.upload.file.UploadFile_Chrome@1794d431]" name="AfterClass" is-config="true" duration-ms="431" started-at="2017-08-01T16:23:53Z" finished-at="2017-08-01T16:23:54Z">
+        <test-method status="PASS" signature="AfterClass()[pri:0, instance:com.upload.file.UploadFile@1794d431]" name="AfterClass" is-config="true" duration-ms="724" started-at="2017-08-01T16:49:39Z" finished-at="2017-08-01T16:49:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterClass -->
-      </class> <!-- com.upload.file.UploadFile_Chrome -->
+      </class> <!-- com.upload.file.UploadFile -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

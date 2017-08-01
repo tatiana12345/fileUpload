@@ -1,111 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="1" failed="1" ignored="0" total="3" passed="1">
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Upload file all browsers" duration-ms="49100" started-at="2017-08-01T20:31:34Z" finished-at="2017-08-01T20:32:23Z">
+  <suite name="Upload file Safari" duration-ms="41850" started-at="2017-08-01T20:38:01Z" finished-at="2017-08-01T20:38:43Z">
     <groups>
     </groups>
-    <test name="All browsers upload" duration-ms="49100" started-at="2017-08-01T20:31:34Z" finished-at="2017-08-01T20:32:23Z">
-      <class name="com.upload.file.UploadFile">
-        <test-method status="FAIL" signature="beforeClass()[pri:0, instance:com.upload.file.UploadFile@3567135c]" name="beforeClass" is-config="true" duration-ms="5030" started-at="2017-08-01T16:31:57Z" finished-at="2017-08-01T16:32:02Z">
-          <exception class="java.lang.IllegalStateException">
-            <message>
-              <![CDATA[The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases
-	at com.google.common.base.Preconditions.checkState(Preconditions.java:738)
-	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:124)
-	at org.openqa.selenium.firefox.GeckoDriverService.access$100(GeckoDriverService.java:41)
-	at org.openqa.selenium.firefox.GeckoDriverService$Builder.findDefaultExecutable(GeckoDriverService.java:115)
-	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:330)
-	at org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:207)
-	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:108)
-	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:104)
-	at com.upload.file.UploadFile.beforeClass(UploadFile.java:45)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at java.lang.Thread.run(Thread.java:745)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.IllegalStateException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="SKIP" signature="AfterClass()[pri:0, instance:com.upload.file.UploadFile@3567135c]" name="AfterClass" is-config="true" duration-ms="0" started-at="2017-08-01T16:32:02Z" finished-at="2017-08-01T16:32:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterClass -->
-        <test-method status="SKIP" signature="Test()[pri:0, instance:com.upload.file.UploadFile@3567135c]" name="Test" duration-ms="0" started-at="2017-08-01T16:32:02Z" finished-at="2017-08-01T16:32:02Z">
-          <exception class="java.lang.IllegalStateException">
-            <message>
-              <![CDATA[The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases
-	at com.google.common.base.Preconditions.checkState(Preconditions.java:738)
-	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:124)
-	at org.openqa.selenium.firefox.GeckoDriverService.access$100(GeckoDriverService.java:41)
-	at org.openqa.selenium.firefox.GeckoDriverService$Builder.findDefaultExecutable(GeckoDriverService.java:115)
-	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:330)
-	at org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:207)
-	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:108)
-	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:104)
-	at com.upload.file.UploadFile.beforeClass(UploadFile.java:45)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at java.lang.Thread.run(Thread.java:745)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.IllegalStateException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test -->
-      </class> <!-- com.upload.file.UploadFile -->
+    <test name="Safari" duration-ms="41850" started-at="2017-08-01T20:38:01Z" finished-at="2017-08-01T20:38:43Z">
       <class name="com.upload.file.UploadFile_Safari">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.upload.file.UploadFile_Safari@68837a77]" name="beforeClass" is-config="true" duration-ms="9568" started-at="2017-08-01T16:31:34Z" finished-at="2017-08-01T16:31:44Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.upload.file.UploadFile_Safari@77b52d12]" name="beforeClass" is-config="true" duration-ms="9223" started-at="2017-08-01T16:38:01Z" finished-at="2017-08-01T16:38:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="FAIL" signature="Test()[pri:0, instance:com.upload.file.UploadFile_Safari@68837a77]" name="Test" duration-ms="12410" started-at="2017-08-01T16:31:44Z" finished-at="2017-08-01T16:31:56Z">
+        <test-method status="FAIL" signature="Test()[pri:0, instance:com.upload.file.UploadFile_Safari@77b52d12]" name="Test" duration-ms="32244" started-at="2017-08-01T16:38:11Z" finished-at="2017-08-01T16:38:43Z">
           <exception class="org.openqa.selenium.ElementNotVisibleException">
             <message>
               <![CDATA[An element command could not be completed because the element is not visible on the page. (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 11 milliseconds
+Command duration or timeout: 10 milliseconds
 Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
 System info: host: 'Tatianas-MacBook-Air.local', ip: '2601:58c:c102:2d10:0:0:0:5', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.5', java.version: '1.8.0_74'
 Driver info: org.openqa.selenium.safari.SafariDriver
 Capabilities [{applicationCacheEnabled=true, rotatable=false, databaseEnabled=true, handlesAlerts=true, version=12603.2.4, cleanSession=true, platform=MAC, nativeEvents=true, locationContextEnabled=false, webStorageEnabled=true, browserName=safari, javascriptEnabled=true, platformName=macOS, cssSelectorsEnabled=true}]
-Session ID: 37D88C40-CA75-4B35-B8B8-A7738D0AC799]]>
+Session ID: 1C2279D5-C5BC-4521-88F9-1BB74678FD3B]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.ElementNotVisibleException: An element command could not be completed because the element is not visible on the page. (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 11 milliseconds
+Command duration or timeout: 10 milliseconds
 Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
 System info: host: 'Tatianas-MacBook-Air.local', ip: '2601:58c:c102:2d10:0:0:0:5', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.5', java.version: '1.8.0_74'
 Driver info: org.openqa.selenium.safari.SafariDriver
 Capabilities [{applicationCacheEnabled=true, rotatable=false, databaseEnabled=true, handlesAlerts=true, version=12603.2.4, cleanSession=true, platform=MAC, nativeEvents=true, locationContextEnabled=false, webStorageEnabled=true, browserName=safari, javascriptEnabled=true, platformName=macOS, cssSelectorsEnabled=true}]
-Session ID: 37D88C40-CA75-4B35-B8B8-A7738D0AC799
+Session ID: 1C2279D5-C5BC-4521-88F9-1BB74678FD3B
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -126,56 +50,46 @@ Session ID: 37D88C40-CA75-4B35-B8B8-A7738D0AC799
 	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at java.lang.Thread.run(Thread.java:745)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.ElementNotVisibleException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.upload.file.UploadFile_Safari@68837a77]" name="tearDown" is-config="true" duration-ms="43" started-at="2017-08-01T16:31:56Z" finished-at="2017-08-01T16:31:56Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.upload.file.UploadFile_Safari@77b52d12]" name="tearDown" is-config="true" duration-ms="42" started-at="2017-08-01T16:38:43Z" finished-at="2017-08-01T16:38:43Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Test status=FAILURE method=UploadFile_Safari.Test()[pri:0, instance:com.upload.file.UploadFile_Safari@68837a77] output={null}]]]>
+                <![CDATA[[TestResult name=Test status=FAILURE method=UploadFile_Safari.Test()[pri:0, instance:com.upload.file.UploadFile_Safari@77b52d12] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="AfterClass()[pri:0, instance:com.upload.file.UploadFile_Safari@68837a77]" name="AfterClass" is-config="true" duration-ms="299" started-at="2017-08-01T16:31:56Z" finished-at="2017-08-01T16:31:57Z">
+        <test-method status="PASS" signature="AfterClass()[pri:0, instance:com.upload.file.UploadFile_Safari@77b52d12]" name="AfterClass" is-config="true" duration-ms="316" started-at="2017-08-01T16:38:43Z" finished-at="2017-08-01T16:38:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterClass -->
       </class> <!-- com.upload.file.UploadFile_Safari -->
-      <class name="com.upload.file.UploadFile_Chrome">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.upload.file.UploadFile_Chrome@6be46e8f]" name="beforeClass" is-config="true" duration-ms="14198" started-at="2017-08-01T16:31:34Z" finished-at="2017-08-01T16:31:48Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="Test()[pri:0, instance:com.upload.file.UploadFile_Chrome@6be46e8f]" name="Test" duration-ms="34705" started-at="2017-08-01T16:31:48Z" finished-at="2017-08-01T16:32:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.upload.file.UploadFile_Chrome@6be46e8f]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-08-01T16:32:23Z" finished-at="2017-08-01T16:32:23Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=Test status=SUCCESS method=UploadFile_Chrome.Test()[pri:0, instance:com.upload.file.UploadFile_Chrome@6be46e8f] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="AfterClass()[pri:0, instance:com.upload.file.UploadFile_Chrome@6be46e8f]" name="AfterClass" is-config="true" duration-ms="186" started-at="2017-08-01T16:32:23Z" finished-at="2017-08-01T16:32:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterClass -->
-      </class> <!-- com.upload.file.UploadFile_Chrome -->
-    </test> <!-- All browsers upload -->
-  </suite> <!-- Upload file all browsers -->
+    </test> <!-- Safari -->
+  </suite> <!-- Upload file Safari -->
 </testng-results>
